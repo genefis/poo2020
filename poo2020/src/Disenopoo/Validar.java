@@ -7,44 +7,30 @@ public class Validar {
     private Double B2;
     private Double nota_final;
 
-    public Validar(String nombre, String materia, Double B1, Double B2){
-      this.setNombre(nombre);
-      this.setMateria(materia);
-      this.setB1(B1);
-      this.setB2(B2);
+
+    public  Validar(String nombre, String materia, Double B1, Double B2){
+      this.nombre=nombre;
+      this.B1=B1;
+      this.B2=B2;
     }
 
     public String getNombre() {
         return nombre;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
     public String getMateria() {
         return materia;
-    }
-
-    public void setMateria(String materia) {
-        this.materia = materia;
     }
 
     public Double getB1() {
         return B1;
     }
 
-    public void setB1(Double b1) {
-        B1 = b1;
-    }
 
     public Double getB2() {
         return B2;
     }
 
-    public void setB2(Double b2) {
-        B2 = b2;
-    }
     public double nota_final() {
         nota_final = B1+B2;
         return nota_final;
