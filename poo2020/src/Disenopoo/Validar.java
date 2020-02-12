@@ -58,7 +58,7 @@ public class Validar {
         }else{
             mensaje="No Aprobado: Debe presentarde a supletorios";
 
-            
+
         }
         return mensaje;
     }
