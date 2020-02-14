@@ -2,8 +2,7 @@ package taller_repeticion;
 
 public class Factorial {
     // Genesis Gonzalez, Ricardo Freire,Alexander Loja
-
-    private  int numero=0;
+   private  int numero=0;
    private int factorial=1;
    public Factorial(int numero){
        this.numero=numero;
@@ -19,9 +18,9 @@ public class Factorial {
            factorial=factorial*i;
        }
        return factorial;
-    }
+   }
 
-    public int getFactorial() {
+   public int getFactorial() {
         return factorial;
-    }
+   }
 }
