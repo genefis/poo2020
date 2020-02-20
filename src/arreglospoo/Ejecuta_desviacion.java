@@ -13,9 +13,7 @@ public class Ejecuta_desviacion {
         }
         Desviacion desviacion = new Desviacion(Arreglo);
         desviacion.Desviacion();
-        for (int i=0;i<Arreglo.length;i++) {
-            System.out.println(Arreglo[i]+"\t"+desviacion.Desviacion());
 
-        }
+        System.out.println(desviacion.media());
     }
 }
