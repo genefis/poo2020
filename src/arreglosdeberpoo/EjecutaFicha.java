@@ -16,11 +16,11 @@ public class EjecutaFicha {
         /**
          * creacion de objeto Ficha
          */
-        ficha ficha = new ficha();
+        Ficha ficha = new Ficha();
         /**
          * Obtencion de datos mediante un ciclo repetitivo
          */
-        for (contador = 0; contador <= 4; contador++) {
+        for(contador = 0; contador <= 4; contador++){
             System.out.println("Ingrese al estudiante " + contador);
             System.out.println("Ingrese el nombre");
             nombre = sc.nextLine();
@@ -39,6 +39,7 @@ public class EjecutaFicha {
         /**
          * Presentacion de el objeto
          */
+
         ficha.presentar();
     }
 }

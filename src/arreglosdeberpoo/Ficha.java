@@ -1,6 +1,6 @@
 package arreglosdeberpoo;
 
-public class ficha {
+public class Ficha {
     private String nombre;
     private String edad;
     private String universidad;
