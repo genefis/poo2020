@@ -7,7 +7,7 @@ public class Persona {
     private String nombre;
     private String identificacion;
     private String estado_civil;
-    private Date fecha_nacimiento;
+    private String fecha_nacimiento;
 
 
     public String getNombre() {
@@ -34,11 +34,11 @@ public class Persona {
         this.estado_civil = estado_civil;
     }
 
-    public Date getFecha_nacimiento() {
+    public String getFecha_nacimiento() {
         return fecha_nacimiento;
     }
 
-    public void setFecha_nacimiento(Date fecha_nacimiento) {
+    public void setFecha_nacimiento(String fecha_nacimiento) {
         this.fecha_nacimiento = fecha_nacimiento;
     }
 }

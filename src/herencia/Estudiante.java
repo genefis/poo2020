@@ -1,6 +1,9 @@
 package herencia;
 
-public class Estudiante {
+/**
+ * CLASE QUE HEREDA DE LA CLASE PERSONA CONTENDRA TODOS LOS ATRIBUTOS Y METODOS DE LA CLASE PERSONA
+ */
+public class Estudiante extends Persona{
     //Atributops de esta clase
 
     private String carrera;
@@ -17,4 +20,7 @@ public class Estudiante {
     public void aprender () {
         System.out.println("metodo para aprender");
     }
+
+
+
 }
