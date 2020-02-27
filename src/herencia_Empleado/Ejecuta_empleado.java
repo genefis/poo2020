@@ -36,6 +36,7 @@ public class Ejecuta_empleado {
                asalariado.getValor_mensual();
                break;
 
+
         }
 
 
