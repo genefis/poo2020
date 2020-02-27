@@ -12,7 +12,5 @@ public class Asalariado extends Empleado {
     public double getValor_mensual() {
         return valor_mensual;
     }
-    public void{
 
-    }
 }
