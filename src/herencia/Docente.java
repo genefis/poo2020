@@ -13,7 +13,7 @@ public class Docente {
     public void ensenar() {
         System.out.println("Metodo para ensenar");
     }
-    public void  matricular() {
+    public void  calificar() {
         System.out.println("metodo para matricular");
     }
 }
