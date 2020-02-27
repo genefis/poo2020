@@ -4,10 +4,10 @@ import java.util.Date;
 
 public class Persona {
     //Atributos comunes para todas las clases
-    private String nombre;
-    private String identificacion;
-    private String estado_civil;
-    private String fecha_nacimiento;
+    protected String nombre;
+    protected String identificacion;
+    protected String estado_civil;
+    protected String fecha_nacimiento;
 
 
     public String getNombre() {
