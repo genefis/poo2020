@@ -25,9 +25,10 @@ public class Ejecuta_conversion {
         /**
          * Creacion y llamada al objeto
          */
-        Conversion conversion = new Conversion(numero);
-        conversion.calcularConversion();
-        conversion.presentacion();
+       // Conversion conversion = new Conversion(numero);
+
+        //conversion.calcularConversion();
+        //conversion.presentacion();
 
     }
 
