@@ -1,17 +1,15 @@
 package polimorfismovolumen;
 
-public class Cono {
+public class Cono extends  Cuerpo{
     private double radio;
     private double altura;
-    private double volumen;
     public Cono(double radio,double altura,String nombre){
         this.radio=radio;
         this.altura=altura;
     }
-    public void VolumenCono(){
+
+    @Override
+    public void CalcularVolumen() {
         volumen =(Math.PI*(radio*radio)*altura)/3;
-    }
-    public double ObtVolCono (){
-        return  volumen;
     }
 }

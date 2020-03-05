@@ -7,10 +7,9 @@ public class Esfera extends Cuerpo {
         this.radio=radio;
         this.nombre=nombre;
     }
-    public void VolumenEsfera(){
+
+    @Override
+    public void CalcularVolumen() {
         volumen = 4/3*(Math.PI*(radio*radio*radio));
-    }
-    public double ObtVolEsfera(){
-        return volumen;
     }
 }

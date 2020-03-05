@@ -18,19 +18,19 @@ public class Ejecuta_cuerpo {
                     System.out.println("Ingrese el radio del cono");
                     radio = entrada.nextDouble();
                     Cono cono = new Cono(radio, altura, nombre);
-                    cono.ObtVolCono();
+                    cono.getVolumen();
                     break;
                 case "CUBO":
                     System.out.println("Ingrese el lado del cubo");
                     double lado = entrada.nextDouble();
                     Cubo cubo = new Cubo(lado, nombre);
-                    cubo.ObtenerAreaCubo();
+                    cubo.getVolumen();
                     break;
                 case "ESFERA":
                     System.out.println("Ingrese el radio de la esfera");
                     radio = entrada.nextDouble();
                     Esfera esfera = new Esfera(radio, nombre);
-                    esfera.ObtVolEsfera();
+                    esfera.getVolumen();
                     break;
                 case "CILINDRO":
                     System.out.println("Ingrese la altura del Cilindro");
@@ -38,6 +38,7 @@ public class Ejecuta_cuerpo {
                     System.out.println("Ingrese el radio del Cilindro");
                     radio = entrada.nextDouble();
                     Cilindro cilindro = new Cilindro(radio, altura, nombre);
+                    cilindro.getVolumen();
                     break;
                 default:
                         ban=false;

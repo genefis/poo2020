@@ -1,11 +1,20 @@
 package polimorfismovolumen;
 
-public class Cuerpo {
+public abstract class Cuerpo {
     protected String nombre;
-    public void establecernombre(String nombre){
-        this.nombre=nombre;
+    protected double volumen;
+
+    public abstract void  CalcularVolumen();
+
+    public String getNombre() {
+        return nombre;
     }
+
     public String obtenernombre (){
         return nombre;
+    }
+
+    public double getVolumen() {
+        return volumen;
     }
 }
