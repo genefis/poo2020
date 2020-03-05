@@ -3,7 +3,9 @@ package matrizpoo;
 import java.util.Scanner;
 
 public class Ejecuta_SumaPRomedio {
+
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
         /**
          * Declaracion de variables
@@ -33,15 +35,16 @@ public class Ejecuta_SumaPRomedio {
         /**
          * Creacion de objeto y llamada a los metodos
          */
-        SumaPromedio sumaPromedio = new SumaPromedio(iTam, jTam, matriz);
-        suma =sumaPromedio.calcularSuma();
-        promedio =sumaPromedio.calcularPromedio();
+        //SumaPromedio sumaPromedio = new SumaPromedio(iTam, jTam, matriz);
+        //suma =sumaPromedio.calcularSuma();
+        //promedio =sumaPromedio.calcularPromedio();
         /**
          * Presentacion de el resultado
          */
-        System.out.println("La matriz es: ");
-        sumaPromedio.presentarMatriz();
-        System.out.println("La suma es " + suma);
-        System.out.println("El promedio es " + promedio);
+        //System.out.println("La matriz es: ");
+        //sumaPromedio.presentarMatriz();
+        //System.out.println("La suma es " + suma);
+        //System.out.println("El promedio es " + promedio);
     }
+
 }
