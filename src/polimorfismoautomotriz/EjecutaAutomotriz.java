@@ -15,20 +15,20 @@ public class EjecutaAutomotriz {
         while(ban=true) {
             switch (departamento){
                 case "Administrativo":
-                    System.out.println("Ingrese el saldo mensual");
-                    double SueldoMensual=entrada.nextDouble();
                     System.out.println("Ingrese el puesto");
                     puesto=entrada.nextLine();
+                    System.out.println("Ingrese el saldo mensual");
+                    double SueldoMensual=entrada.nextDouble();
                     Administrativos administrativo = new Administrativos(nombre,SueldoMensual,departamento,puesto);
                     System.out.println("");
                     administrativo.Calcularquincenal();
                     System.out.println(administrativo.getSueldoquincena());
                     break;
                 case "Mecanico":
-                    System.out.println("Ingrese el numero de trabajos");
-                    int numtrabajos =entrada.nextInt();
                     System.out.println("Ingrese el puesto");
                     puesto=entrada.nextLine();
+                    System.out.println("Ingrese el numero de trabajos");
+                    int numtrabajos =entrada.nextInt();
                     entrada.nextLine();
                     System.out.println("Ingrese la cuota por trabajo");
                     double cuota =entrada.nextDouble();
@@ -52,6 +52,7 @@ public class EjecutaAutomotriz {
                 default:
                     ban =false;
                     break;
+
             }
 
         }
